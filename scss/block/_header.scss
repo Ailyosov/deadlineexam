@@ -1,0 +1,26 @@
+.head {
+  margin-left: 165px;
+  &__wrap {
+    display: flex;
+  }
+  &__image {
+    margin-top: 45px;
+  }
+  &__ul {
+    display: flex;
+    margin-top: 70px;
+    gap: 40px;
+    margin-left: 64px;
+  }
+
+  &__li {
+    color: #36536b;
+  }
+  &__button {
+    margin-top: 40px;
+    margin-left: 506px;
+    a {
+      color: #fbfcfe;
+    }
+  }
+}

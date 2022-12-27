@@ -1,0 +1,59 @@
+.work__div {
+  padding-left: 165px;
+}
+.work__div h2 {
+  padding-top: 100px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  color: #fbfcfe;
+}
+.work__div p {
+  padding-top: 24px;;
+  width: 400px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #fbfcfe;
+}
+
+.main__work {
+  background: #1b262f;
+  max-width: 1440px;
+  height: 472px;
+  margin-top: 90px;
+}
+.work__btn {
+  margin-top: 40px;
+  cursor: pointer;
+  color: #fbfcfe;
+  border: 1px solid #fbfcfe;
+  border-radius: 24px;
+  text-align: center;
+  padding: 16px 32px 14px;
+  background: #1b262f;
+  font-size: 15px;
+}
+.work__btn:active {
+  background: #fbfcfe;
+  color: #1b262f;
+}
+
+.main__box {
+  display: flex;
+  gap: 60px;
+  padding-left: 741px;
+  margin-top: -190px;
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  width: 129px;
+  height: 17px;
+  gap: 54px;
+}
+.box__cart {
+  margin-top: -10px;
+}

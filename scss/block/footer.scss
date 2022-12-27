@@ -1,0 +1,41 @@
+.footer {
+  width: 1440px;
+  height: 100px;
+  background: #1b262f;
+  margin-top: 100px;
+  &__wrapper {
+    display: flex;
+  }
+  &__btn svg path {
+    transition: all 0.2s linear;
+  }
+  &__btn:hover svg path {
+    fill: #da6d97;
+  }
+  &__img {
+    margin-right: 64px;
+    padding-top: 39px;
+    margin-left: 100px;
+  }
+  &__special {
+    display: flex;
+    gap: 24px;
+    padding-top: 38px;
+    margin-left: -100px;
+  }
+  &__link:active {
+    color: #fbfcfe;
+  }
+  &__link {
+    color: rgba(128, 128, 128, 0.5);
+  }
+  &__list {
+    display: flex;
+    margin-right: 560px;
+    gap: 40px;
+    padding-top: 42px;
+  }
+  &__navigation {
+    display: flex;
+  }
+}

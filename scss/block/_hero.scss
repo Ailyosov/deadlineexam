@@ -1,0 +1,32 @@
+.hero {
+     margin-left: 165px;
+     margin-top: 160px;
+&__title {
+     font-family: 'DM Serif Display';
+     font-style: normal;
+     width: 400px;
+     font-size: 72px;
+     color: #36536B;
+     width: 546px;
+     height: 243px;
+}
+&__subtitle{
+     color: #6C8294;
+     font-size: 15px;
+     margin-top: 16px;
+}
+&__wrapper {
+     display: flex;
+}
+&__img {
+     margin-top: -150px;
+     width: 50px;
+     height: 110px;
+}
+&__img_first {
+     margin-left: 180px;
+     width: 450px;
+     height: 750px;
+}
+
+}

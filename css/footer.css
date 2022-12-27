@@ -1,0 +1,41 @@
+.footer {
+  width: 1440px;
+  height: 100px;
+  background: #1b262f;
+  margin-top: 100px;
+}
+.footer__wrapper {
+  display: flex;
+}
+.footer__btn svg path {
+  transition: all 0.2s linear;
+}
+.footer__btn:hover svg path {
+  fill: #da6d97;
+}
+.footer__img {
+  margin-right: 64px;
+  padding-top: 39px;
+  margin-left: 100px;
+}
+.footer__special {
+  display: flex;
+  gap: 24px;
+  padding-top: 38px;
+  margin-left: -100px;
+}
+.footer__link:active {
+  color: #fbfcfe;
+}
+.footer__link {
+  color: rgba(128, 128, 128, 0.5);
+}
+.footer__list {
+  display: flex;
+  margin-right: 560px;
+  gap: 40px;
+  padding-top: 42px;
+}
+.footer__navigation {
+  display: flex;
+}/*# sourceMappingURL=footer.css.map */
